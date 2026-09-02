@@ -16,7 +16,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/mikamikaloti-blip/omano/main
 - PATH رو تنظیم می‌کنه
 - تست می‌کنه که اجرا میشه
 
-> 🔑 چون ریپو **پرایوت** هست، اسکریپت ازت توکن گیت‌هاب (همونی که فروشنده بهت داده) رو می‌پرسه. اگه خواستی از قبل بدی: `GITHUB_TOKEN=xxx bash install.sh`
+> نیازی به توکن یا حساب گیت‌هاب نیست — ولی **بدون لایسنس هیچ دستوری اجرا نمیشه**.
 
 ---
 
@@ -83,7 +83,7 @@ omano stats proxies.txt
 | `No license found` | `omano lic activate <KEY>` |
 | `License expired` | از فروشنده کلید جدید بگیر |
 | `License is bound to a different machine` | لایسنس برای سیستم دیگه‌ست — machine-id خودت رو بفرست |
-| دانلود ریلیز fail میشه | توکن گیت‌هاب معتبر نیست یا منقضی شده |
+| دانلود ریلیز fail میشه | اینترنت قطعه — دوباره امتحان کن |
 | `System clock was rolled back` | ساعت سیستم رو درست تنظیم کن و دوباره امتحان کن |
 
 ---
